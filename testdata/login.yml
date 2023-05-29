@@ -1,0 +1,15 @@
+log-level: info
+screen:
+  - selection:
+      login:
+        # banner: "Welcome to the login screen"
+        selected: "auth2"
+        tabs:
+        - name: "basic auth"
+          basic_auth:
+            username: "admin"
+            password: "admin"
+        - name: "auth2"
+          basic_auth:
+            username: "admin"
+            password: "admin"
